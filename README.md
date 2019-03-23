@@ -6,7 +6,9 @@ the SSID and Password with yours, after launched the sketch connects to the ntp 
 the time in the clock module.
 
 How to connect the two boards:
+
 DS3231  VCC GND SDA SCL
+
 ESP8266 5+  GND D2  D1
 
 this thing can be done in a better way taking in account the time consumed in the various calls and precisely set the clock qhen the second occour, but for my pourpose this is enough....for the moment...
