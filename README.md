@@ -11,7 +11,7 @@ How to connect the two boards:
 ```javascript
 DS3231  VCC GND SDA SCL
         |    |   |   |
-ESP8266 5+  GND  D2  D1
+ESP8266 3v3 GND  D2  D1
 ```
 
 this thing can be done in a better way taking in account the time consumed in the various calls and precisely set the clock qhen the second occour, but for my pourpose this is enough....for the moment...
